@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Signika:wght@300..700&display=swap');
+
+#texto{
+    font-family:"Signika", sans-serif; ;
+    color: #ffffff;
+    font-size:25px;
+}
+#texto:hover{
+    color:rgb(7, 37, 146);
+    box-shadow:3px rgb(75, 74, 77);
+}
+#h11{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:35px;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:30px;
+}
+#foto{
+    width: 150px;
+    border: solid 6px rgb(129, 23, 236);
+    border-radius: 50%;
+    
+ 
+   
+}
+#img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#body,html{
+    background-color: rgb(242, 197, 249);
+}
+#Topo{
+   background: linear-gradient(#7533FA, #c785cf);
+   height: 80px;
+}
+#texto2{
+    font-size:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:10px;
+    
+}
+#texto3{
+    background-color: white;
+    height: 50px;
+    font-size:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:20px;
+
+}
