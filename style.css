@@ -6,7 +6,7 @@
     font-size:25px;
 }
 #texto:hover{
-    color:rgb(7, 37, 146);
+    color:rgb(3, 3, 3);
     box-shadow:3px rgb(75, 74, 77);
 }
 #h11{
@@ -20,7 +20,7 @@
 }
 #foto{
     width: 150px;
-    border: solid 6px rgb(129, 23, 236);
+    border: solid 6px #4D7C83;
     border-radius: 50%;
     
  
@@ -32,10 +32,10 @@
     align-items: center;
 }
 #body,html{
-    background-color: rgb(242, 197, 249);
+    background-color: #d9e2de;
 }
 #Topo{
-   background: linear-gradient(#7533FA, #c785cf);
+   background-color: #90B2A2;
    height: 80px;
 }
 #texto2{
@@ -55,4 +55,48 @@
     align-items: center;
     margin-top:20px;
 
+}
+#coluna{
+    background-color: rgb(250, 244, 236);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+    border: 3px solid #90B2A2;
+    border-radius: 5%;
+    margin-top: 40px;
+    
+
+}
+#contact{
+    background-color: #4D7C83;
+    color: #ffffff;
+    margin: 0;
+    height: 20vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;     
+      
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+i{
+    size: 120px;
+
+}
+.profile-pic{
+    margin-top: 18px;
+    width: 150px;
+    border: solid 6px #4D7C83;
+    border-radius: 50%;
+    
+
+}
+.corpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
